@@ -90,10 +90,7 @@ function renderTransactions() {
     <button class="delete-btn" data-index="${index}">Delete</button>
 </div>
 `;
-    // console.log(transactionClass)
   });
-  // console.log(totalIncome)
-  // console.log(totalExpense)
 
   let balance = totalIncome - totalExpense;
   console.log("Income:", totalIncome);
@@ -104,10 +101,8 @@ function renderTransactions() {
   let deleteButtons = document.querySelectorAll(".delete-btn");
   deleteButtons.forEach(function (button) {
     button.addEventListener("click", function () {
-      // console.log(button.getAttribute("data-index"));
+      
       let index = Number(button.getAttribute("data-index"));
-      // console.log(index);
-      // console.log(typeof index);
       transactions.splice(index, 1);
 
       localStorage.setItem("transactions", JSON.stringify(transactions));
