@@ -2,6 +2,10 @@
 
 A simple Expense Tracker built using HTML, CSS and JavaScript.
 
+## 🚀 Live Demo
+
+https://tapishbhardwaj.github.io/Expense-Tracker/
+
 ## 🚀 Features
 
 - Add expenses
@@ -38,4 +42,4 @@ Expense-Tracker/
 
 **Tapish Bhardwaj**
 
-Made by tapish bhardwaj
+- GitHub: https://github.com/tapishbhardwaj
