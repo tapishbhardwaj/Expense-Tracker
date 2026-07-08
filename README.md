@@ -42,4 +42,4 @@ Expense-Tracker/
 
 **Tapish Bhardwaj**
 
-- GitHub: https://github.com/tapishbhardwaj
+ - GitHub: https://github.com/tapishbhardwaj
